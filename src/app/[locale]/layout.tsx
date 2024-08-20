@@ -8,6 +8,7 @@ import { GlobalStyle } from '@/styles/globalStyles'
 import AppTheme from '@/shared/app-theme'
 import { SessionProvider } from 'next-auth/react'
 import { auth } from '@/auth'
+import React from 'react'
 const openSans = Open_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
