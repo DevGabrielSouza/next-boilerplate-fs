@@ -1,20 +1,22 @@
-import NextAuth from "next-auth";
-import authConfig from "./auth.config";
+import NextAuth from 'next-auth'
+import authConfig from './auth.config'
 
 export const {
   handlers: { GET, POST },
   auth,
   signIn,
-  signOut,
+  signOut
 } = NextAuth({
   session: {
-    strategy: "jwt",
-    maxAge: 30 * 24 * 60 * 60, // 30 days
+    strategy: 'jwt',
+    maxAge: 30 * 24 * 60 * 60 // 30 days
   },
   pages: {
-    signIn: "/login",
-    signOut: "/logout",
-    error: "/login",
+    signIn: '/auth',
+    signOut: '/auth',
+    error: '/auth',
+    verifyRequest: '/auth',
+    newUser: '/app'
   },
-  ...authConfig,
-});
+  ...authConfig
+})
