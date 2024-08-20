@@ -64,5 +64,8 @@
     "required_field": "Required field",
     "optional_field": "Optional field",
     "select_option": "Select an option"
+  },
+  "app": {
+    "description": "A template for quickly building micro-SaaS, focused on validating MVPs. It uses Prisma, PostgreSQL, DDD, and Clean Architecture to ensure a solid and scalable foundation."
   }
 }
