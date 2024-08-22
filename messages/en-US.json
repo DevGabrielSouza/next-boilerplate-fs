@@ -2,13 +2,15 @@
   "auth": {
     "login": "Login",
     "logout": "Logout",
+    "welcome": "Welcome",
     "register": "Register",
     "email": "Email",
     "password": "Password",
     "confirmPassword": "Confirm Password",
     "forgotPassword": "Forgot Password?",
     "resetPassword": "Reset Password",
-    "username": "Username"
+    "username": "Username",
+    "signIn": "Sign in to your account"
   },
   "actions": {
     "create": "Create",

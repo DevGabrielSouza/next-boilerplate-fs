@@ -2,13 +2,15 @@
   "auth": {
     "login": "Entrar",
     "logout": "Sair",
+    "welcome": "Bem-vindo",
     "register": "Registrar",
     "email": "Email",
     "password": "Senha",
     "confirmPassword": "Confirmar Senha",
     "forgotPassword": "Esqueceu a Senha?",
     "resetPassword": "Redefinir Senha",
-    "username": "Nome de usuário"
+    "username": "Nome de usuário",
+    "signIn": "Faça login na sua conta"
   },
   "actions": {
     "create": "Criar",
