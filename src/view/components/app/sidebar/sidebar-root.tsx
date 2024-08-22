@@ -7,7 +7,7 @@ export default function SidebarRoot({ children, className }: GenericProps) {
     <aside
       className={cn([
         className,
-        'bg-indigo-900 text-white h-screen flex flex-col gap-2'
+        'flex h-screen flex-col gap-2 bg-indigo-900 text-white'
       ])}
     >
       {children}
